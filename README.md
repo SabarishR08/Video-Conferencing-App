@@ -391,6 +391,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### ⭐ Star this repository if you find it helpful!
 
-**Made with ❤️ by Sabarish R**
-
 </div>
