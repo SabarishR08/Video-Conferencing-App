@@ -387,16 +387,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🙏 Acknowledgments
-
-- [Agora.io](https://www.agora.io/) for RTC/RTM SDK
-- [Socket.io](https://socket.io/) for real-time communication
-- [MongoDB](https://www.mongodb.com/) for database
-- [React](https://reactjs.org/) for frontend framework
-- [Material-UI](https://mui.com/) for UI components
-
----
-
 <div align="center">
 
 ### ⭐ Star this repository if you find it helpful!
