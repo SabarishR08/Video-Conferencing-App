@@ -1,4 +1,69 @@
-# 📹 Video Conferencing App
+# Video Conferencing App
+
+![License](https://img.shields.io/badge/license-MIT-green) ![Language](https://img.shields.io/badge/language-JavaScript-informational)
+
+
+## 📌 Overview
+
+Full-stack real-time video conferencing application with rooms, chat, and collaboration features
+
+## 🏗️ Architecture
+
+```text
+React   (frontend)
+     │   REST / WebSocket
+     ▼
+Socket.IO, Express   (API server)
+     │
+     └──▶ Database — MongoDB
+```
+
+## 🧰 Tech Stack
+
+- **Language:** JavaScript (Node)
+- **Backend:** Socket.IO, Express
+- **Frontend:** React
+- **Database:** MongoDB
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+
+### 1. Clone
+
+```bash
+git clone https://github.com/SabarishR08/Video-Conferencing-App.git
+cd Video-Conferencing-App
+```
+
+### 2. Install dependencies
+
+This is a multi-app monorepo (`client/` + `server/`) — each app installs its own dependencies in the run commands below.
+
+### 3. Configure environment
+
+```bash
+cp .env.example .env   # then fill in values
+```
+
+Environment variables used: `JWT_SECRET`, `MONGODB_URI`, `PORT`, `NODE_ENV`.
+
+Most features work without keys; integrations activate when keys are set.
+
+### 4. Run
+
+```bash
+cd code/server && npm install && npm run start   # Terminal 1 — API server
+```
+
+```bash
+cd code/client && npm install && npm run start   # Terminal 2 — web client
+```
+
+
+---
 
 <div align="center">
 
@@ -392,3 +457,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### ⭐ Star this repository if you find it helpful!
 
 </div>
+
+---
+
+## 📄 License
+
+[MIT](LICENSE) — © 2026 Sabarish R.
